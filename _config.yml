@@ -5,6 +5,3 @@ collections:
 
 plugins:
   - jekyll-feed
-
-include:
-  - .well-known/
