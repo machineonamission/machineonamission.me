@@ -143,7 +143,7 @@ body {
     /* https://stackoverflow.com/a/63791417/9044183 evil css trig hack to get gradients to loop properly */
     --d: 100vh;
     --angle: -45deg;
-    background: repeating-linear-gradient(var(--angle) in oklab, #2E50E6, #4A32E6, #8632E6, #C232E6, #E62EBE, #C232E6, #8632E6, #4A32E6, #2E50E6 var(--d));
+    background: repeating-linear-gradient(var(--angle) in oklab, #27E1D9, #26AEE0,#2673E0,  #2E50E6, #4A32E6, #8632E6, #C232E6, #E62EBE, #C232E6, #8632E6, #4A32E6, #2E50E6,#2673E0,  #26AEE0, #27E1D9 var(--d));
     background-size: calc(-1 * /*remove that -1 if angle goes positive*/(var(--d) / sin(var(--angle)))) 100%;
     animation: gradient 5s linear infinite;
 
