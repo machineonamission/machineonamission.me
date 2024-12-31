@@ -35,7 +35,7 @@ const logomaterial = new THREE.MeshStandardMaterial({
 
 const loader = new GLTFLoader();
 let loaded = false;
-loader.load('./assets/reticivis.glb', function (gltf) {
+loader.load('./assets/moam.glb', function (gltf) {
     logo = gltf.scene;
 
     // logo.material = logomaterial;
