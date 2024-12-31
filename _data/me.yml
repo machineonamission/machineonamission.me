@@ -1,5 +1,5 @@
 - title: "Support Me!"
-  link: "https://ko-fi.com/reticivis"
+  link: "https://ko-fi.com/machineonamission"
   image_url: "assets/coffee.png"
   image_alt: "☕"
   content: >
@@ -13,32 +13,30 @@
     Come check out my blog where I post my ramblings, findings, things I find 
     interesting, and things I think the internet might find interesting or useful.
 
-- title: "What is Rēticīvis?"
+- title: "What is Machine on a Mission?"
   image_url: "assets/comment-question.svg"
   image_alt: "❓"
   content: >
-    Rēticīvis is a Latin 
-    <a href="https://en.wiktionary.org/wiki/neologism#Noun">neologism</a> 
-    <a href="https://o-eheu.tumblr.com/post/119369980976/reticivis-dictyopolites">coined by O, Eheu</a> 
-    that means "citizen of the internet" or "netizen". 
-    It is a direct combination of "rēte" (net) and "cīvis" (citizen).
+    Machine on a Mission is a <a href='https://www.youtube.com/channel/UCqA-bpFdLWzugMIeK26UjnQ'>Machine Girl</a> 
+    lyric from the song <a href='https://www.youtube.com/watch?v=Il_51tSLadg'>Mchngrl vs Wlfgrl</a> that I feel
+    represents who I am and what I do.
 
-- title: "Who is Rēticīvis?"
+- title: "Who is Machine on a Mission?"
   image_url: "assets/person-circle-question.svg"
   image_alt: "🧍"
   content: >
     Hello! My name is Melody, and I am the developer behind this website and all 
     projects listed here. Contact me at 
-    <a href='mailto:me@reticivis.net'>me@reticivis.net</a>.
+    <a href='mailto:me@machineonamission.me'>me@machineonamission.me</a>.
 
-- title: "What is reticivis.net?"
+- title: "What is machineonamission.me?"
   image_url: "assets/globe-pointer.svg"
   image_alt: "🌐"
   content: >
     This website is a 1 page "portfolio"-type website to link all of my projects 
     back to 1 identity/page.
 
-- title: "What is the Rēticīvis logo?"
+- title: "What is the Machine on a Mission logo?"
   image_url: "assets/reticivis_just_logo.svg"
   image_alt: "♾️"
   content: >

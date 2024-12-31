@@ -1,12 +1,12 @@
 [submodule "mytimezone"]
 	path = mytimezone
-	url = https://github.com/reticivis-net/mytimezone
+	url = https://github.com/machineonamission/mytimezone
 [submodule "voxcorder"]
 	path = voxcorder
-	url = https://github.com/reticivis-net/voxcorder
+	url = https://github.com/machineonamission/voxcorder
 [submodule "creature"]
 	path = creature
-	url = https://github.com/reticivis-net/creature
+	url = https://github.com/machineonamission/creature
 [submodule "blog"]
 	path = blog
-	url = https://github.com/reticivis-net/blog
+	url = https://github.com/machineonamission/blog

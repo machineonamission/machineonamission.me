@@ -6,7 +6,7 @@
     {%- assign description = page.excerpt | strip_html | replace: "    ", " " | strip_newlines -%}
 {%- endif -%}
 {%- if layout.child or page.child -%}
-    {%- assign title = title | append: " - Rēticīvis" -%}
+    {%- assign title = title | append: " - Machine on a Mission" -%}
 {%- endif -%}
 <!DOCTYPE html>
 <html lang="en">
@@ -25,12 +25,12 @@
 
     <meta property="og:title" content="{{ title }}"/>
     <meta property="og:description" content="{{ description }}"/>
-    <meta property="og:image" content="https://reticivis.net/assets/reticivis_just_logo.png"/>
+    <meta property="og:image" content="https://machineonamission.me/assets/reticivis_just_logo.png"/>
     <meta content="#ffffff" data-react-helmet="true" name="theme-color"/>
 
     <meta name="twitter:title" content="{{ title }}"/>
     <meta name="twitter:description" content="{{ description }}"/>
-    <meta name="twitter:image" content="https://reticivis.net/assets/reticivis_just_logo.png"/>
+    <meta name="twitter:image" content="https://machineonamission.me/assets/reticivis_just_logo.png"/>
 
     <meta name="darkreader-lock">
 
@@ -60,8 +60,8 @@
 </div>
 
 <div class="footer">
-    <p class="mb-0">&copy; 2024 Rēticīvis · <a href="/ack">Acknowledgements</a>
-        · <a href="https://github.com/reticivis-net/reticivis.net">Source</a></p>
+    <p class="mb-0">&copy; {{ 'now' | date: "%Y" }} Machine on a Mission · <a href="/ack">Acknowledgements</a>
+        · <a href="https://github.com/machineonamission/machineonamission.me">Source</a></p>
 </div>
 </body>
 </html>
