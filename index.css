@@ -193,7 +193,8 @@ body {
 
 @supports (-webkit-touch-callout: inherit) or (not (background-attachment: fixed)) {
     .safari-bg {
-        background-image: url("assets/bg.png");
+        background-image: url("assets/newbg.png");
+        image-rendering: pixelated;
         /*evil hack to get it to be fixed on safari ios*/
         position: fixed;
         top: 0;
@@ -207,6 +208,9 @@ body {
         /*background-repeat: no-repeat;*/
         /*background-attachment: fixed;*/
     }
+    .safari-bg * {
+        image-rendering: auto;
+    }
 
     .bg {
         background: transparent !important;
@@ -219,11 +223,15 @@ body {
     }
 
     .bg {
-        background-image: url("assets/bg.png");
+        background-image: url("assets/newbg.png");
+        image-rendering: pixelated;
         /*doesnt work on safari ios*/
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
+    }
+    .bg * {
+        image-rendering: auto;
     }
 
     /*THIS SHIT IS SUPER LAGGY*/
