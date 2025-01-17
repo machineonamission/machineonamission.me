@@ -11,14 +11,18 @@ head: |
         }
     </script>
     <script src="index.js" type="module"></script>
+prepend: |
+    <canvas id="animation"></canvas>
+    <button id="pauseanimation" type="button" class="btn btn-dark"><img src='assets/pause.svg' class='icon'
+                                                                        alt="⏸️"/> Pause Animation</button>
 ---
 
 <noscript>
     <div class="text-center mb-4">
         <div class="glass d-inline-block text-center px-4 py-2">
-            <h4 class="mb-0 text-warning">I've detected you don't have JavaScript. machineonamission.me was designed to
+            <p class="mb-0 text-warning">I've detected you don't have JavaScript. machineonamission.me was designed to
                 work without JS, but you'll
-                be missing some features.</h4>
+                be missing some features.</p>
         </div>
     </div>
 </noscript>

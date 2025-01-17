@@ -10,7 +10,7 @@ let ready = false;
 
 const scene = new THREE.Scene();
 
-const renderer = new THREE.WebGLRenderer({antialias: true});
+const renderer = new THREE.WebGLRenderer({antialias: true, canvas: document.getElementById("animation")});
 renderer.setSize(document.documentElement.clientWidth, window.innerHeight);
 renderer.setPixelRatio(window.devicePixelRatio);
 // weird stuff that fixes overexposure
@@ -267,8 +267,7 @@ function htmlToNode(html) {
     template.innerHTML = html;
     return template.content.firstChild;
 }
-let pa = htmlToNode(`<button id="pauseanimation" type="button" class="btn btn-dark"><img src='assets/pause.svg' class='icon'
-                                                                                          alt="⏸️"/> Pause Animation</button>`)
+let pa = document.getElementById("pauseanimation")
 pa.addEventListener("click", () => {
     if (paused) {
         id = requestAnimationFrame(animate);
@@ -279,8 +278,8 @@ pa.addEventListener("click", () => {
     }
     paused = !paused;
 });
-document.body.prepend(pa);
-document.body.prepend(renderer.domElement);
+// document.body.prepend(pa);
+// document.body.prepend(renderer.domElement);
 
 // intersection observer to pause animation when not visible
 const intersectionObserver = new IntersectionObserver((entries) => {

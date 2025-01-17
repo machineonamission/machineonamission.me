@@ -7,9 +7,7 @@
     --bs-link-hover-color-rgb: 181, 21, 176;
 }
 
-canvas {
-    background: url("assets/load.svg") no-repeat center;
-}
+
 
 .block {
     background-color: #111;
@@ -144,9 +142,8 @@ body {
     --d: 100vh;
     --angle: -45deg;
     background: repeating-linear-gradient(var(--angle) in oklab,
-        #27E1D9, #26AEE0, #2673E0, #2E50E6, #4A32E6, #8632E6, #C232E6, #E62EBE,
-        #C232E6, #8632E6, #4A32E6, #2E50E6, #2673E0, #26AEE0, #27E1D9
-        var(--d));
+    #27E1D9, #26AEE0, #2673E0, #2E50E6, #4A32E6, #8632E6, #C232E6, #E62EBE,
+    #C232E6, #8632E6, #4A32E6, #2E50E6, #2673E0, #26AEE0, #27E1D9 var(--d));
     background-size: calc(-1 * /*remove that -1 if angle goes positive*/(var(--d) / sin(var(--angle)))) 100%;
     animation: gradient 5s linear infinite;
 
@@ -208,6 +205,7 @@ body {
         /*background-repeat: no-repeat;*/
         /*background-attachment: fixed;*/
     }
+
     .safari-bg * {
         image-rendering: auto;
     }
@@ -230,6 +228,7 @@ body {
         background-repeat: no-repeat;
         background-attachment: fixed;
     }
+
     .bg * {
         image-rendering: auto;
     }
@@ -338,4 +337,16 @@ html, body {
 
 .header:has(h3) {
     padding-bottom: 0;
+}
+
+#animation {
+    width: 100vw;
+    height: 100vh;
+    background: url("assets/load.svg") no-repeat center;
+}
+
+@media not (scripting: enabled) {
+    #animation, #pauseanimation {
+        display: none;
+    }
 }
