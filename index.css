@@ -192,6 +192,9 @@ body {
     .safari-bg {
         background-image: url("assets/newbg.png");
         image-rendering: pixelated;
+
+        background-color: rgb(0 0 0 / 50%);
+        background-blend-mode: darken;
         /*evil hack to get it to be fixed on safari ios*/
         position: fixed;
         top: 0;
@@ -223,6 +226,9 @@ body {
     .bg {
         background-image: url("assets/newbg.png");
         image-rendering: pixelated;
+
+        background-color: rgb(0 0 0 / 50%);
+        background-blend-mode: darken;
         /*doesnt work on safari ios*/
         background-size: cover;
         background-repeat: no-repeat;
