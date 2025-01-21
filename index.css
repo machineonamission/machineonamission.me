@@ -202,6 +202,7 @@ body {
         left: 0;
         right: 0;
         z-index: -1;
+        background-position: center;
 
         /*doesnt work on safari ios*/
         background-size: cover;
@@ -233,6 +234,7 @@ body {
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
+        background-position: center;
     }
 
     .bg * {
