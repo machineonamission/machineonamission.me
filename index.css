@@ -1,12 +1,13 @@
 :root {
-    --bs-font-sans-serif: 'Atkinson Hyperlegible', Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --bs-font-sans-serif: "Atkinson Hyperlegible Next", Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --bs-font-monospace: "Atkinson Hyperlegible Mono", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
     /*the darkly green is kinda fugly*/
     --bs-link-color: #f0f;
     --bs-link-color-rgb: 255, 0, 255;
     --bs-link-hover-color: #b515b0;
     --bs-link-hover-color-rgb: 181, 21, 176;
 }
-
 
 
 .block {
@@ -157,7 +158,7 @@ body {
     */
     font-size: min(calc((18vw - 18%) - .82rem), 6rem);
 
-    font-weight: bolder;
+    font-weight: 800;
     /*max-font-size: 6rem;*/
 
     /*white-space: nowrap;*/
