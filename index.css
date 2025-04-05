@@ -1,7 +1,6 @@
 :root {
-    --bs-font-sans-serif: "Atkinson Hyperlegible Next", Lato, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    --bs-font-monospace: "Atkinson Hyperlegible Mono", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-
+    --bs-font-sans-serif: "Atkinson Hyperlegible Next", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+    --bs-font-monospace: "Atkinson Hyperlegible Mono", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
     /*the darkly green is kinda fugly*/
     --bs-link-color: #f0f;
     --bs-link-color-rgb: 255, 0, 255;
