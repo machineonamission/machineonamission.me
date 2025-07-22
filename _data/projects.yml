@@ -76,6 +76,12 @@
   image_alt: "🔌"
   content: "An incomplete Unity game I made for school about boolean logic gates."
 
+- title: "Standard Model Poster"
+  link: "https://github.com/machineonamission/standardmodelposter"
+  image_url: "assets/standardmodelposter.svg"
+  image_alt: "⚛️"
+  content: "A poster I designed that depicts the Standard Model of Elementary Particles."
+
 - title: "My Timezone"
   link: "mytimezone"
   image_url: "assets/clock.svg"
