@@ -13,6 +13,32 @@ const scene = new THREE.Scene();
 const renderer = new THREE.WebGLRenderer({antialias: true, canvas: document.getElementById("animation")});
 renderer.setSize(document.documentElement.clientWidth, window.innerHeight);
 renderer.setPixelRatio(window.devicePixelRatio);
+
+// if user starts not scrolled and stays not scrolled for 3 seconds, show a popup
+if (window.scrollY < 100) {
+    setTimeout(() => {
+        if (window.scrollY < 100) {
+            const popup_container = document.createElement("div");
+            popup_container.innerHTML = `
+            <div class="glass" id="scroll-popup">
+                <p>
+                    Scroll down to see more!
+                    <button type="button" class="btn-close icon" aria-label="Close" id="close-scroll-popup"></button>
+                </p>
+            </div>`
+            document.body.append(popup_container);
+            document.getElementById("close-scroll-popup").addEventListener("click", function () {
+                popup_container.remove();
+            })
+            addEventListener("scroll", () => {
+                if (window.scrollY > 100) {
+                    // remove the popup if the user scrolls down
+                    popup_container.remove();
+                }
+            })
+        }
+    }, 3000)
+}
 // weird stuff that fixes overexposure
 renderer.toneMapping = THREE.ACESFilmicToneMapping;
 renderer.outputEncoding = THREE.sRGBEncoding;
@@ -260,13 +286,6 @@ function animate(now) {
     renderer.render(scene, camera);
 }
 
-
-
-function htmlToNode(html) {
-    const template = document.createElement('template');
-    template.innerHTML = html;
-    return template.content.firstChild;
-}
 let pa = document.getElementById("pauseanimation")
 pa.addEventListener("click", () => {
     if (paused) {
