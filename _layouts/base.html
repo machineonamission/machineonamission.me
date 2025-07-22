@@ -43,7 +43,7 @@
 {%- if page.prepend -%}
 {{ page.prepend }}
 {%- endif -%}
-<div class="header">
+<div class="header" id="top">
     <a class="afix" href="{%- if layout.post -%} /blog {%- else -%} / {%- endif -%}">
         {%- comment -%}
         Jekyll doesn't support "inheritance" of variables from one layout to the other, so this evil hack is the best solution...

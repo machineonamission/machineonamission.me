@@ -121,6 +121,12 @@ body {
     cursor: pointer;
 }
 
+.silent-link, .silent-link:hover {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 #pauseanimation {
     width: 100%;
     padding: 10px;

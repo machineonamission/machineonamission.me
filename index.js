@@ -20,12 +20,12 @@ if (window.scrollY < 100) {
         if (window.scrollY < 100) {
             const popup_container = document.createElement("div");
             popup_container.innerHTML = `
-            <div class="glass" id="scroll-popup">
+            <a class="glass silent-link" id="scroll-popup" href="#top">
                 <p>
                     Scroll down to see more!
                     <button type="button" class="btn-close icon" aria-label="Close" id="close-scroll-popup"></button>
                 </p>
-            </div>`
+            </a>`
             document.body.append(popup_container);
             document.getElementById("close-scroll-popup").addEventListener("click", function () {
                 popup_container.remove();
