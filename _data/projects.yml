@@ -82,6 +82,13 @@
   image_alt: "⚛️"
   content: "A poster I designed that depicts the Standard Model of Elementary Particles."
 
+- title: "My Redbubble"
+  link: "https://machinemission.redbubble.com"
+  image_url: "assets/redbubble.svg"
+  image_alt: "RB"
+  content: "I mostly opened the shop to officially sell the standard model poster, but I also have some other designs available (they made me upload 5 items to open)."
+
+
 - title: "My Timezone"
   link: "mytimezone"
   image_url: "assets/clock.svg"
