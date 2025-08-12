@@ -16,6 +16,12 @@
   image_alt: "🌐"
   content: "A program that removes the watermark in the corner of Windows insider builds."
 
+- title: "dlPro"
+  link: "https://github.com/machineonamission/dlpro"
+  image_url: "assets/dlpro.svg"
+  image_alt: "🔻"
+  content: "yt-dlp, the web's most powerful video and audio downloader, now embedded fully in your browser."
+
 - title: "Win Global GPU"
   link: "https://github.com/machineonamission/win_global_gpu"
   image_url: "assets/win_global_gpu.svg"
