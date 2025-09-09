@@ -41,15 +41,6 @@
     /*margin-bottom: 5px;*/
 }
 
-
-.block-header img, .icon {
-    display: inline-block;
-    height: 1em;
-    vertical-align: middle;
-    position: relative;
-    margin-top: -7px;
-}
-
 .pfix {
     margin-top: 0;
     margin-bottom: 0;
@@ -144,9 +135,11 @@ body {
     /* https://stackoverflow.com/a/63791417/9044183 evil css trig hack to get gradients to loop properly */
     --d: 100vh;
     --angle: -45deg;
-    background: repeating-linear-gradient(var(--angle) in oklab,
-    #27E1D9, #26AEE0, #2673E0, #2E50E6, #4A32E6, #8632E6, #C232E6, #E62EBE,
-    #C232E6, #8632E6, #4A32E6, #2E50E6, #2673E0, #26AEE0, #27E1D9 var(--d));
+    background: repeating-linear-gradient(var(--angle) in hsl,
+    hsl(149, 100%, 50%),
+    hsl(305, 100%, 50%),
+    hsl(149, 100%, 50%)
+     var(--d));
     background-size: calc(-1 * /*remove that -1 if angle goes positive*/(var(--d) / sin(var(--angle)))) 100%;
     animation: gradient 5s linear infinite;
 
