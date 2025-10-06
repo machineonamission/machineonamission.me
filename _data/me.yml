@@ -1,18 +1,3 @@
-- title: "Support Me!"
-  link: "https://ko-fi.com/machineonamission"
-  image_url: "assets/coffee.png"
-  image_alt: "☕"
-  content: >
-    If you like what I do, send a couple dollars my way at my Ko-fi!
-
-- title: "MelBlog"
-  link: "blog"
-  image_url: "assets/blog.svg"
-  image_alt: "📝"
-  content: >
-    Come check out my blog where I post my ramblings, findings, things I find 
-    interesting, and things I think the internet might find interesting or useful.
-
 - title: "What is Machine on a Mission?"
   image_url: "assets/comment-question.svg"
   image_alt: "❓"
@@ -43,3 +28,25 @@
     Designed by a friend of mine in my college's graphic design class, the logo 
     combines 3 elements: the <code>&lt;tagname&gt;</code> style tags used in 
     HTML, the letter 𝑥 as used in algebra, and an infinity symbol.
+
+- title: "What kind of projects do I do?"
+  image_url: "assets/rectangle-history.svg"
+  image_alt: "🗒️"
+  content: >
+    All of my projects follow a common theme: they solve problems that I have. I have a problem in my life or something
+    I wish existed, so I make it myself and release it for free.
+
+- title: "Support Me!"
+  link: "https://ko-fi.com/machineonamission"
+  image_url: "assets/coffee.png"
+  image_alt: "☕"
+  content: >
+    If you like what I do, send a couple dollars my way at my Ko-fi!
+
+- title: "MelBlog"
+  link: "blog"
+  image_url: "assets/blog.svg"
+  image_alt: "📝"
+  content: >
+    Come check out my blog where I post my ramblings, findings, things I find 
+    interesting, and things I think the internet might find interesting or useful.
