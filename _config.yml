@@ -5,3 +5,5 @@ collections:
 
 plugins:
   - jekyll-feed
+
+encoding: utf-8
