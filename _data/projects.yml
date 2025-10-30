@@ -1,9 +1,3 @@
-- title: "My GitHub"
-  link: "https://github.com/machineonamission"
-  image_url: "assets/github.png"
-  image_alt: "🐙"
-  content: "My GitHub profile and repositories, where all the source code of my projects lives."
-
 - title: "MediaForge"
   link: "https://github.com/machineonamission/mediaforge"
   image_url: "assets/roundmediaforge.png"

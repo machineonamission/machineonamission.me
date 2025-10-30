@@ -43,6 +43,19 @@
   content: >
     If you like what I do, send a couple dollars my way at my Ko-fi!
 
+- title: "My GitHub"
+  link: "https://github.com/machineonamission"
+  image_url: "assets/github.png"
+  image_alt: "🐙"
+  content: "My GitHub profile and repositories, where all the source code of my projects lives."
+
+
+- title: "Official Discord Serveer"
+  image_url: "assets/Discord-Symbol-Blurple.svg"
+  image_alt: "💬"
+  content: >
+    Join my official Discord server to chat about all my projects and get support!
+
 - title: "MelBlog"
   link: "blog"
   image_url: "assets/blog.svg"
