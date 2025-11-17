@@ -186,7 +186,7 @@ body {
 
 @supports (-webkit-touch-callout: inherit) or (not (background-attachment: fixed)) {
     .safari-bg {
-        background-image: url("assets/newbgdark.png");
+        background-image: url("../assets/newbgdark.png");
         image-rendering: pixelated;
         /*evil hack to get it to be fixed on safari ios*/
         position: fixed;
@@ -218,7 +218,7 @@ body {
     }
 
     .bg {
-        background-image: url("assets/newbgdark.png");
+        background-image: url("../assets/newbgdark.png");
         image-rendering: pixelated;
         /*doesnt work on safari ios*/
         background-size: cover;
@@ -340,7 +340,7 @@ html, body {
 #animation {
     width: 100vw;
     height: 100vh;
-    background: url("assets/load.svg") no-repeat center;
+    background: url("../assets/load.svg") no-repeat center;
 }
 
 @media not (scripting: enabled) {
@@ -367,4 +367,15 @@ html, body {
         bottom: 1em;
         opacity: 1;
     }
+}
+
+.highlight pre {
+    border-radius: 0.5em;
+    padding: 0.5em;
+}
+
+code:not(pre > code) {
+    background-color: #0008;
+    border-radius: 0.25em;
+    padding: 0.25em;
 }
