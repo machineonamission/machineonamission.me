@@ -61,7 +61,7 @@ const logomaterial = new THREE.MeshStandardMaterial({
 
 const loader = new GLTFLoader();
 let loaded = false;
-loader.load('./assets/moam.glb', function (gltf) {
+loader.load('./assets/logo_v2/logov2.glb', function (gltf) {
     logo = gltf.scene;
 
     // logo.material = logomaterial;

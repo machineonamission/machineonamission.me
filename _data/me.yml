@@ -11,7 +11,7 @@
   image_alt: "🧍"
   content: >
     Hello! My name is Melody, and I am the developer behind this website and all 
-    projects listed here. I've also gone by Rēticīvis, HexCodeFFF, Hex, and Hexbugman213. Contact me at 
+    projects listed here. I've also gone by Rēticīvis/Reticivis, HexCodeFFF, Hex, and Hexbugman213. Contact me at 
     <a href='mailto:me@machineonamission.me'>me@machineonamission.me</a>.
 
 - title: "What is machineonamission.me?"
@@ -22,12 +22,12 @@
     back to 1 identity/page.
 
 - title: "What is the Machine on a Mission logo?"
-  image_url: "assets/moam_just_logo.svg"
+  image_url: "assets/logo_v2/MOAM LOGO NEW CROPPED.svg"
   image_alt: "♾️"
   content: >
-    Designed by a friend of mine in my college's graphic design class, the logo 
-    combines 3 elements: the <code>&lt;tagname&gt;</code> style tags used in 
-    HTML, the letter 𝑥 as used in algebra, and an infinity symbol.
+    The concept was created by friend of mine in my college's graphic design class, and the logo was created by me. 
+    The logo combines 3 elements: the style of tags used in HTML (eg <code>&lt;html&gt;</code>), the letter 𝑥 as used 
+    in algebra, and an infinity symbol.
 
 - title: "What kind of projects do I do?"
   image_url: "assets/rectangle-history.svg"
