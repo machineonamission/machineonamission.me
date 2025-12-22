@@ -379,3 +379,7 @@ code:not(pre > code) {
     border-radius: 0.25em;
     padding: 0.25em;
 }
+
+#blogbody img {
+    max-width: 50vw;
+}
