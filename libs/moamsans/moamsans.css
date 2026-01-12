@@ -2,62 +2,62 @@
     font-family: 'MoaM Sans';
     font-style: normal;
     font-weight: 100;
-    src: url(./MoaMSans-Thin.otf) format('otf');
+    src: url(./MoaMSans-Thin.woff2) format('woff2'), url(./MoaMSans-Thin.woff) format('woff'), url(./MoaMSans-Thin.otf) format('opentype'), url(./MoaMSans-Thin.ttf) format('truetype');
 }
 
 @font-face {
     font-family: 'MoaM Sans';
     font-style: normal;
     font-weight: 200;
-    src: url(./MoaMSans-ExtraLight.otf) format('otf');
+    src: url(./MoaMSans-ExtraLight.woff2) format('woff2'), url(./MoaMSans-ExtraLight.woff) format('woff'), url(./MoaMSans-ExtraLight.otf) format('opentype'), url(./MoaMSans-ExtraLight.ttf) format('truetype');
 }
 
 @font-face {
     font-family: 'MoaM Sans';
     font-style: normal;
     font-weight: 300;
-    src: url(./MoaMSans-Light.otf) format('otf');
+    src: url(./MoaMSans-Light.woff2) format('woff2'), url(./MoaMSans-Light.woff) format('woff'), url(./MoaMSans-Light.otf) format('opentype'), url(./MoaMSans-Light.ttf) format('truetype');
 }
 
 @font-face {
     font-family: 'MoaM Sans';
     font-style: normal;
     font-weight: 400;
-    src: url(./MoaMSans-Regular.otf) format('otf');
+    src: url(./MoaMSans-Regular.woff2) format('woff2'), url(./MoaMSans-Regular.woff) format('woff'), url(./MoaMSans-Regular.otf) format('opentype'), url(./MoaMSans-Regular.ttf) format('truetype');
 }
 
 @font-face {
     font-family: 'MoaM Sans';
     font-style: normal;
     font-weight: 500;
-    src: url(./MoaMSans-Medium.otf) format('otf');
+    src: url(./MoaMSans-Medium.woff2) format('woff2'), url(./MoaMSans-Medium.woff) format('woff'), url(./MoaMSans-Medium.otf) format('opentype'), url(./MoaMSans-Medium.ttf) format('truetype');
 }
 
 @font-face {
     font-family: 'MoaM Sans';
     font-style: normal;
     font-weight: 600;
-    src: url(./MoaMSans-SemiBold.otf) format('otf');
+    src: url(./MoaMSans-SemiBold.woff2) format('woff2'), url(./MoaMSans-SemiBold.woff) format('woff'), url(./MoaMSans-SemiBold.otf) format('opentype'), url(./MoaMSans-SemiBold.ttf) format('truetype');
 }
 
 @font-face {
     font-family: 'MoaM Sans';
     font-style: normal;
     font-weight: 700;
-    src: url(./MoaMSans-Bold.otf) format('otf');
+    src: url(./MoaMSans-Bold.woff2) format('woff2'), url(./MoaMSans-Bold.woff) format('woff'), url(./MoaMSans-Bold.otf) format('opentype'), url(./MoaMSans-Bold.ttf) format('truetype');
 }
 
 @font-face {
     font-family: 'MoaM Sans';
     font-style: normal;
     font-weight: 800;
-    src: url(./MoaMSans-ExtraBold.otf) format('otf');
+    src: url(./MoaMSans-ExtraBold.woff2) format('woff2'), url(./MoaMSans-ExtraBold.woff) format('woff'), url(./MoaMSans-ExtraBold.otf) format('opentype'), url(./MoaMSans-ExtraBold.ttf) format('truetype');
 }
 
 @font-face {
     font-family: 'MoaM Sans';
     font-style: normal;
     font-weight: 900;
-    src: url(./MoaMSans-Black.otf) format('otf');
+    src: url(./MoaMSans-Black.woff2) format('woff2'), url(./MoaMSans-Black.woff) format('woff'), url(./MoaMSans-Black.otf) format('opentype'), url(./MoaMSans-Black.ttf) format('truetype');
 }
 
