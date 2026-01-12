@@ -22,6 +22,12 @@
   image_alt: "🖥️"
   content: "A Windows program that sets your preferred GPU globally, manually or automatically."
 
+- title: "MoaM Sans"
+  link: "https://github.com/machineonamission/moamsans"
+  image_url: "assets/moam sans.svg"
+  image_alt: "🔠"
+  content: "My custom display font used on this very website!"
+
 - title: "Evergreen"
   link: "https://github.com/machineonamission/evergreen"
   image_url: "assets/evergreen1000.png"
@@ -87,7 +93,6 @@
   image_url: "assets/redbubble.svg"
   image_alt: "RB"
   content: "I mostly opened the shop to officially sell the standard model poster, but I also have some other designs available (they made me upload 5 items to open)."
-
 
 - title: "My Timezone"
   link: "mytimezone"

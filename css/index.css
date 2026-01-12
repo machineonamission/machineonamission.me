@@ -131,6 +131,14 @@ body {
     }
 }
 
+.moamsans, .textemphasis {
+    font-family: "Moam Sans", var(--bs-font-sans-serif), sans-serif;
+}
+
+.fw-black {
+    font-weight: 900 !important;
+}
+
 .textemphasis {
     /* https://stackoverflow.com/a/63791417/9044183 evil css trig hack to get gradients to loop properly */
     --d: 100vh;
@@ -153,7 +161,7 @@ body {
     */
     font-size: min(calc((18vw - 18%) - .82rem), 6rem);
 
-    font-weight: 800;
+    font-weight: 900;
     /*max-font-size: 6rem;*/
 
     /*white-space: nowrap;*/

@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'MoaM Sans';
+    font-style: normal;
+    font-weight: 100;
+    src: url(./MoaMSans-Thin.otf) format('otf');
+}
+
+@font-face {
+    font-family: 'MoaM Sans';
+    font-style: normal;
+    font-weight: 200;
+    src: url(./MoaMSans-ExtraLight.otf) format('otf');
+}
+
+@font-face {
+    font-family: 'MoaM Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: url(./MoaMSans-Light.otf) format('otf');
+}
+
+@font-face {
+    font-family: 'MoaM Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url(./MoaMSans-Regular.otf) format('otf');
+}
+
+@font-face {
+    font-family: 'MoaM Sans';
+    font-style: normal;
+    font-weight: 500;
+    src: url(./MoaMSans-Medium.otf) format('otf');
+}
+
+@font-face {
+    font-family: 'MoaM Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: url(./MoaMSans-SemiBold.otf) format('otf');
+}
+
+@font-face {
+    font-family: 'MoaM Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: url(./MoaMSans-Bold.otf) format('otf');
+}
+
+@font-face {
+    font-family: 'MoaM Sans';
+    font-style: normal;
+    font-weight: 800;
+    src: url(./MoaMSans-ExtraBold.otf) format('otf');
+}
+
+@font-face {
+    font-family: 'MoaM Sans';
+    font-style: normal;
+    font-weight: 900;
+    src: url(./MoaMSans-Black.otf) format('otf');
+}
+

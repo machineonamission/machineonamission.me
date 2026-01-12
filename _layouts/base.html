@@ -19,6 +19,8 @@
 
     <link rel="stylesheet" type="text/css" href="/libs/ahl/ahlpatch.css"/>
 
+    <link rel="stylesheet" type="text/css" href="/libs/moamsans/moamsans.css"/>
+
     <link rel="stylesheet" type="text/css" href="/libs/bootstrap/css/bootstrap.min.css"/>
     <link rel="stylesheet" type="text/css" href="/css/codehighlight.css"/>
     <link rel="stylesheet" type="text/css" href="/css/index.css"/>
@@ -51,7 +53,7 @@
         {%- endcomment -%}
         {%- if layout.child or page.child -%}
             <img class="headerimg" src="/assets/logo_v2/MOAM LOGO NEW CROPPED.svg" alt="Machine on a Mission">
-            <h3>{%- if layout.post -%} MelBlog {%- else -%} {{ page.title }} {%- endif -%}</h3>
+            <h3 class="moamsans fw-black">{%- if layout.post -%} MelBlog {%- else -%} {{ page.title }} {%- endif -%}</h3>
         {%- else -%}
             <img class="headerimg" src="/assets/logo_v2/MOAM LOGO TEXT HORIZONTAL.svg" alt="Machine on a Mission">
         {%- endif -%}

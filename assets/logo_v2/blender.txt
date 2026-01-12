@@ -1,0 +1,12 @@
+How to extrude text in blender:
+Import as SVG
+select all new curves, object > join
+rotate to face fowards
+Scale as needed
+properties window (on right) > data (green curve) > geometry > extrude
+transform pivot point (chain thing at the top center) > bounding box origin
+object > set origin > origin to geometry
+properties window (on right) > object (orange box) > set x,y,z to 0
+object > convert to mesh
+object > auto smooth
+export as .glb

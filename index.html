@@ -32,11 +32,11 @@ prepend: |
     <div class="glass d-inline-block text-center px-4 py-2">
         <h1><a href="https://en.wikipedia.org/wiki/%22Hello,_World!%22_program" class="cool-link">Hello, world!</a>
             My name is</h1>
-        <h1><span class="textemphasis">
+        <h1 class="mb-0"><span class="textemphasis">
                 <span class="sparkle">✨</span>Melody!<span class="sparkle">✨</span>
             </span></h1>
         <h2>And <a href="https://youtube.com/clip/UgkxYlVq0o7Ku2XtPGDA-6AnKB9laHotQymM" class="cool-link">
-            I'm a <b>Machine on a Mission!</b></a>
+            I'm a <b class="moamsans">Machine on a Mission!</b></a>
         </h2>
     </div>
 </div>
@@ -48,7 +48,7 @@ prepend: |
         {% else %}
             <div class="grid-item glass">
         {% endif %}
-                <h3><img src="{{ item.image_url }}" alt="{{ item.image_alt }}"> {{ item.title }}</h3>
+                <h3 class="moamsans"><img src="{{ item.image_url }}" alt="{{ item.image_alt }}"> {{ item.title }}</h3>
                 <p>{{ item.content }}</p>
         {% if item.link %}
             </a>
@@ -59,7 +59,7 @@ prepend: |
 </div>
 <div class="text-center">
     <div class="glass d-inline-block text-center px-4 py-2">
-        <h1 class="mb-0"><img src="assets/rectangle-history.svg" class="icon" alt=""> <b>Projects</b></h1>
+        <h1 class="mb-0 moamsans fw-black"><img src="assets/rectangle-history.svg" class="icon" alt=""> Projects</h1>
     </div>
 </div>
 <div class="grid-container">
@@ -70,7 +70,7 @@ prepend: |
         {% else %}
             <div class="grid-item glass">
         {% endif %}
-                <h3><img src="{{ item.image_url }}" alt="{{ item.image_alt }}"> {{ item.title }}</h3>
+                <h3 class="moamsans"><img src="{{ item.image_url }}" alt="{{ item.image_alt }}"> {{ item.title }}</h3>
                 <p>{{ item.content }}</p>
         {% if item.link %}
             </a>
