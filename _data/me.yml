@@ -53,7 +53,7 @@
 - title: "Discord Server"
   image_url: "assets/Discord-Symbol-Blurple.svg"
   image_alt: "💬"
-  link: "https://discord.gg/QhMyz3n4V7"
+  link: "/discord" # redirects to discord invite after passing cloudflare challenge, i get a weird amount of bots and i suspect having this open is why
   content: >
     Join my official Discord server to chat about all my projects and get support!
 
