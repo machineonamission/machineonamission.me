@@ -4,9 +4,10 @@
   content: >
     Machine on a Mission is a <a href='https://www.youtube.com/channel/UCqA-bpFdLWzugMIeK26UjnQ'>Machine Girl</a> 
     lyric from the song <a href='https://youtu.be/Il_51tSLadg?t=124'>Mchngrl vs Wlfgrl</a> that I feel
-    represents who I am (a programmer who approaches problem solving in a very machine-like way) and what I do (single-minded focus on projects that improve people's lives).
+    represents who I am (a programmer who approaches problem solving in a very machine-like way) and what I do 
+    (single-minded focus on projects that improve people's lives).
 
-- title: "Who is Machine on a Mission?"
+- title: "Who am I?"
   image_url: "assets/person-circle-question.svg"
   image_alt: "🧍"
   content: >
@@ -14,18 +15,18 @@
     projects listed here. I've also gone by Rēticīvis/Reticivis, HexCodeFFF, Hex, and Hexbugman213. Contact me at 
     <a href='mailto:me@machineonamission.me'>me@machineonamission.me</a>.
 
-- title: "What is machineonamission.me?"
+- title: "What is this site?"
   image_url: "assets/globe-pointer.svg"
   image_alt: "🌐"
   content: >
     This website is a 1 page "portfolio"-type website to link all of my projects 
     back to 1 identity/page.
 
-- title: "What is the Machine on a Mission logo?"
+- title: "What is the logo?"
   image_url: "assets/logo_v2/MOAM LOGO NEW CROPPED.svg"
   image_alt: "♾️"
   content: >
-    The concept was created by friend of mine in my college's graphic design class, and the logo was created by me. 
+    The original concept was created by Erick Ascencio and I designed the final SVG. 
     The logo combines 3 elements: the style of tags used in HTML (eg <code>&lt;html&gt;</code>), the letter 𝑥 as used 
     in algebra, and an infinity symbol.
 
